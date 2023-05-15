@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "FLYOVER：A Model-Driven  Method to Generate Diverse Highway Interchanges "
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+The complexity of highways mainly lies in highway interchanges due to the diverse connection topology and ramp geometry, which significantly affect the decision-making and motion control of A Vs.
+
+For example, different interchanges may contain a different number of one-way roads. Moreover, a ramp can leave or enter a road or another ramp from the left or right.
+
+Comprehensive A V testing under diverse interchanges is challenging. First, it is risky, resourceconsuming, and even impossible to cover all interchanges in a city physically. On the other hand, even though simulationbased testing provides an efficient way to perform A V testing, it highly relies on HD maps. The lack of a ready-to-use dataset consisting of diverse highway intersections becomes the bottleneck.
+
+To address this issue, we propose a systematic method to generate diverse interchanges with measurable diversity coverage.
+
+
 
 A data-driven personal website
 ======
