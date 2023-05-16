@@ -1,22 +1,17 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
 
-  - title: "Talks111"
+
+  - title: "Topology coverage-Guided Testing"
     url: /talks/    
 
-  - title: "Teaching123"
+  - title: "Collisoin Avoidance Testing"
     url: /teaching/    
     
-  - title: "Portfolio123"
-    url: /portfolio/
         
-  - title: "Blog Posts123"
+  - title: "HD Map Generation"
     url: /year-archive/
     
-  - title: "CV123"
+  - title: "Generate interchanges"
     url: /cv/
     
-  - title: "Guide123"
-    url: /markdown/
