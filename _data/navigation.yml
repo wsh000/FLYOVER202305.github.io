@@ -6,17 +6,17 @@ main:
   - title: "Talks111"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Teaching123"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Portfolio123"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Blog Posts123"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "CV123"
     url: /cv/
     
-  - title: "Guide"
+  - title: "Guide123"
     url: /markdown/
