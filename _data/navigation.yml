@@ -6,12 +6,12 @@ main:
     url: /topology-coverage-guided/    
 
   - title: "Collisoin Avoidance Testing"
-    url: /teaching/    
+    url: /collisoin-avoidance/    
     
         
   - title: "HD Map Generation"
-    url: /year-archive/
+    url: /HD-map-generation/
     
   - title: "Generate interchanges"
-    url: /cv/
+    url: /generate-interchanges/
     
