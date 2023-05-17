@@ -47,9 +47,9 @@ The following diagram visualizes some of the topology features extracted from th
 
 We define the following features to model the driving behavior on roads:
 
-number_of_lane_changes_before_junction
+* number_of_lane_changes_before_junction
 
-number_of_lane_changes_after_junction
+* number_of_lane_changes_after_junction
 
 The extracted road features are shown below
 
