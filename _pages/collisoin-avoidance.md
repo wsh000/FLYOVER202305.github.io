@@ -34,9 +34,9 @@ Choosing the junction lane to test is not the end. We need to assign NPC vehicle
 
 For simplicity, assume the NPC vehicles moves in a constant speed following their assigned path. We then have the following parameters to concretize each test scenario:
 
-each NPC's trigger distance (when to start the NPC vehicle when the EGO is xxx meters away from the junction).
+* each NPC's trigger distance (when to start the NPC vehicle when the EGO is xxx meters away from the junction).
 
-each NPC's driving speed.
+* each NPC's driving speed.
 
 Given that each lane may have multiple intersecting lanes, thus multiple NPC vehicles involved in each test. The curse of dimensionality applies and it becomes infeasible to cover all the combinations especially with continuous paramters such as distance and speed. We thus applied the Genetic Algorithm to search towards collision test cases (local optimum). 
 
