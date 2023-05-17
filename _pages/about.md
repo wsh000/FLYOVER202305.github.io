@@ -59,7 +59,7 @@ Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and ef
 However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
 
 
-Some publicly available rearch
+MORE
 ======
 
 
