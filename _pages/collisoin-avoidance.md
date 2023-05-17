@@ -26,6 +26,8 @@ Similar to the previous work, we collect all the junction lanes and classify the
 
 The resulted junction lane classes of the San Francisco map is shown below.
 
+![test_img](../images/tupian03.png)
+
 Methodology
 ======
 As mentioned earlier, each route contians two roads and one junction. 
