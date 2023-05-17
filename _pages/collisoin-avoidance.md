@@ -12,7 +12,7 @@ author_profile: true
 
 Introduction
 ======
-In city-driving scenarios, collisions often happen in junctions as the connecting lanes of junctions naturally intersects each other. When there is no traffic control (e.g. traffic light or stop signs), vehicles needs to negotiate the right of way before driving through. When such negotiation fails, collision may happen where the traffic lanes intersect. 
+AAAIn city-driving scenarios, collisions often happen in junctions as the connecting lanes of junctions naturally intersects each other. When there is no traffic control (e.g. traffic light or stop signs), vehicles needs to negotiate the right of way before driving through. When such negotiation fails, collision may happen where the traffic lanes intersect. 
 
 We follow the same definition of a route in the previous work (topoloyg coverage-guided testing) but modify a little bit.  For collision avoidance testing, we no longer care about the lane changes behavior (not because it's less important) before and after junctions and included the intersection feature of each junction lanes which EGO veihcle follows during each test case. 
 
@@ -27,6 +27,22 @@ Similar to the previous work, we collect all the junction lanes and classify the
 The resulted junction lane classes of the San Francisco map is shown below.
 
 ![test_img](../images/tupian03.png)
+
+From each junction lane classes, the lanes are considered equivalent in the potential types of collision scenario and thus can be selected randomly to represent its class.
+
+Choosing the junction lane to test is not the end. We need to assign NPC vehicles following its intersecting junction lanes. 
+
+For simplicity, assume the NPC vehicles moves in a constant speed following their assigned path. We then have the following parameters to concretize each test scenario:
+
+* each NPC's trigger distance (when to start the NPC vehicle when the EGO is xxx meters away from the junction).
+
+* each NPC's driving speed.
+
+Given that each lane may have multiple intersecting lanes, thus multiple NPC vehicles involved in each test. The curse of dimensionality applies and it becomes infeasible to cover all the combinations especially with continuous paramters such as distance and speed. We thus applied the Genetic Algorithm to search towards collision test cases (local optimum). 
+
+The overall diagram is shown below:
+
+![test_img](../images/tupian04.png)
 
 Methodology
 ======
