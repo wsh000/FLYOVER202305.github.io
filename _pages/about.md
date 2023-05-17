@@ -47,7 +47,7 @@ The term "scenario" is commonly defined as:
 A layered structure of scenario elements has been proposed as shown on the right.
 
 
-![test_img](../images/rearch1.PNG)
+![test_img](../images/rearch1.png)
 
 
 Some publicly available rearch
