@@ -68,7 +68,7 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 [Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
 
-![test_img](../images/collision.GIF)
+![test_img](../images/collision.GIF)  ![test_img](../images/collision.GIF)
 
 
 [Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
