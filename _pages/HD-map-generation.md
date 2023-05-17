@@ -42,3 +42,5 @@ Each junction has a logic center C, which is located at the center of its polygo
 Vectors have length and rotation. For simplicity, we fix length to be 10 meters and focus on the rotation feature, as the rotation feature essentially determines the overall shape (geometry) of the constructed junction.  For example, the rotation angles of the three road vectors in the diagram below are 30 degrees, 160 degrees, -95 degress, all measured from the east direction. 
 As mentioned earlier, each route contians two roads and one junction. 
 
+![test_img](../images/HDtupian01.png)
+
