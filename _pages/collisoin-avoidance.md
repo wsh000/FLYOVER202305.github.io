@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "COLLISOIN-AVOIDANCE"
 permalink: /teaching/
 author_profile: true
 ---
@@ -8,21 +8,23 @@ author_profile: true
 
 {% include base_path %}
 
+
+
 Introduction
 ======
-AAAThe first step to testing scenarios generation is to construct the road networks where all the traffic participants (e.g. EGO vehicle, NPC vehicles, pedestrians etc.) move.
+In city-driving scenarios, collisions often happen in junctions as the connecting lanes of junctions naturally intersects each other. When there is no traffic control (e.g. traffic light or stop signs), vehicles needs to negotiate the right of way before driving through. When such negotiation fails, collision may happen where the traffic lanes intersect. 
 
-In city-driving scenarios, the two most common elements of the road networks are the roads and junctions (including roundabouts). 
+We follow the same definition of a route in the previous work (topoloyg coverage-guided testing) but modify a little bit.  For collision avoidance testing, we no longer care about the lane changes behavior (not because it's less important) before and after junctions and included the intersection feature of each junction lanes which EGO veihcle follows during each test case. 
 
-The dynamic driving tasks of the EGO vehicle usually involves starting from any road side, driving through various junctions and reaching the destination at another road side. Such a route can be decomposed into a sequence of unit routes, each including a start point on one road, one junction to drive through and an end point on another road (i.e. the other side of the junciton). 
+For each junction lane, each intersection point represents a potential collision area on the junction lane. 
 
-Once we have the definition of unit routes, we can then extract all the possible routes given a city-driving map and treat each route as a testing scenario. 
+The way how the lanes get intersected by other lanes (e.g. angle of intersection, middle or end) potentially represents different types of collision scenairos. 
 
-But here comes the issue of redundancy. 
+We define the intersection feature of each junction lane as a set of tuples, each tuple represents the relative intersection direction by another junction lane. (refer to our paper for more details). Essentially, the intersection feature describes the relative directions from which the NPC vehicles may collide with the ego vehicle moving along the junction lane. 
 
-For example, for the San Francisco map provided by LG SVL, we noticed that over 90% of the routes extracted have similar roads and junction structures. This leads to large amount of duplicated test cases, thus waste of testing efforts. 
+Similar to the previous work, we collect all the junction lanes and classify them into different junction lane groups based on their intersection feature.
 
-To solve this, a way to classify routes need to be proposed to quantitatively group test cases and identify representives test cases from each group. 
+The resulted junction lane classes of the San Francisco map is shown below.
 
 Methodology
 ======
