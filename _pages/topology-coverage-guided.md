@@ -29,15 +29,15 @@ As mentioned earlier, each route contians two roads and one junction.
 
 We define the following features to classify the junctions:
 
-has_traffic_light
+* has_traffic_light
 
-has_stop_sign
+* has_stop_sign
 
-has_incoming_crosswalk
+* has_incoming_crosswalk
 
-has_outgoing_crosswalk
+* has_outgoing_crosswalk
 
-topology feature
+* topology feature
 
 The topolgy feature is denoted by the co nectivity of the connected roads and thus represents the direction of the traffic flow through the junction.  
 
@@ -47,9 +47,9 @@ The following diagram visualizes some of the topology features extracted from th
 
 We define the following features to model the driving behavior on roads:
 
-number_of_lane_changes_before_junction
+* number_of_lane_changes_before_junction
 
-number_of_lane_changes_after_junction
+* number_of_lane_changes_after_junction
 
 The extracted road features are shown below
 
@@ -63,17 +63,17 @@ As a result, duplicated test cases can be elimitated by selecting only one route
 
 Below are some of the discovered issues of the open-source Apollo stack:
 
-Failed to change lane
+* Failed to change lane
 
-![test_img](../images/dongtu05.png)
+![test_img](../images/TOPOdongtu01.GIF)
 
-Stuck at stop sign junction
+* Stuck at stop sign junction
 
-![test_img](../images/dongtu06.png)
+![test_img](../images/TOPOdongtu02.GIF)
 
-Produced inefficient routing
+* Produced inefficient routing
 
-![test_img](../images/dongtu07.png)
+![test_img](../images/TOPOdongtu03.GIF)
 
 Readers are referred to the following paper for more details.
 

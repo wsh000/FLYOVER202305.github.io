@@ -11,22 +11,22 @@ redirect_from:
 Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research. which aims to develop reliable, interpretable, and verifiable autonomous simulation data solutions. The current research directions are as follows:
 
 
-Autonomous driving data mining and clustering
+* Autonomous driving data mining and clustering
 
 
-Simulation scenario modeling and generation
+* Simulation scenario modeling and generation
 
 
-Safety scenario analysis and reconstruction
+* Safety scenario analysis and reconstruction
 
 
-Fault injection and adversarial attacks
+* Fault injection and adversarial attacks
 
 
-Accelerated longtail scenario generation
+* Accelerated longtail scenario generation
 
 
-Interactive scenario generation
+* Interactive scenario generation
 
 
 We sincerely welcome more scholars to join our research work . 
@@ -59,7 +59,7 @@ Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and ef
 However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
 
 
-MORE
+More rearch
 ======
 
 
@@ -68,22 +68,47 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 [Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
 
-![test_img](../images/collision.GIF)  ![test_img](../images/collision.GIF)
+![test_img](../images/homedongtu01.GIF)   ![test_img](../images/homedongtu01.GIF)
 
 
 [Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
 
-![test_img](../images/collision.GIF)
+![test_img](../images/homedongtu02.GIF)
 
 
 [HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
 
-![test_img](../images/collision.GIF)
+![test_img](../images/hometupian03.jpg)
 
 
 [Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
 
-![test_img](../images/collision.GIF)
+![test_img](../images/homedongtu04.gif)
+
+
+
+Dharma Institute technical interpretation
+======
+
+Question: How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
+
+<iframe 
+src="../videos/sample.webm" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
+
+Alibaba technology interpretation
+======
+
+Question: How can simulated maps protect autonomous driving?
+
 
 <iframe 
 src="../videos/sample.webm" 
