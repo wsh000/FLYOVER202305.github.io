@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-*Introduction
+Introduction
 ======
 The first step to testing scenarios generation is to construct the road networks where all the traffic participants (e.g. EGO vehicle, NPC vehicles, pedestrians etc.) move.
 
@@ -23,7 +23,7 @@ For example, for the San Francisco map provided by LG SVL, we noticed that over 
 
 To solve this, a way to classify routes need to be proposed to quantitatively group test cases and identify representives test cases from each group. 
 
-*Methodology
+Methodology
 ======
 As mentioned earlier, each route contians two roads and one junction. 
 
