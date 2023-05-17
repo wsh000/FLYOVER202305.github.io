@@ -84,6 +84,6 @@ Readers are referred to the following paper for more details.
 
 Y. Tang et al., "Route Coverage Testing for Autonomous Vehicles via Map Modeling," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 11450-11456, doi: 10.1109/ICRA48506.2021.9560890.[URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9560890&isnumber=9560666)
 
-<video src="../videos/sample.mp4"></video>
+<video src="../videos/sample.webm"></video>
 
 
