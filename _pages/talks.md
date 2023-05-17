@@ -9,84 +9,73 @@ author_profile: true
 
 Introduction
 ======
-The complexity of highways mainly lies in highway interchanges due to the diverse connection topology and ramp geometry, which significantly affect the decision-making and motion control of A Vs.
+The first step to testing scenarios generation is to construct the road networks where all the traffic participants (e.g. EGO vehicle, NPC vehicles, pedestrians etc.) move.
 
+In city-driving scenarios, the two most common elements of the road networks are the roads and junctions (including roundabouts). 
 
-For example, different interchanges may contain a different number of one-way roads. Moreover, a ramp can leave or enter a road or another ramp from the left or right.
+The dynamic driving tasks of the EGO vehicle usually involves starting from any road side, driving through various junctions and reaching the destination at another road side. Such a route can be decomposed into a sequence of unit routes, each including a start point on one road, one junction to drive through and an end point on another road (i.e. the other side of the junciton). 
 
+Once we have the definition of unit routes, we can then extract all the possible routes given a city-driving map and treat each route as a testing scenario. 
 
-Comprehensive A V testing under diverse interchanges is challenging. First, it is risky, resourceconsuming, and even impossible to cover all interchanges in a city physically. On the other hand, even though simulationbased testing provides an efficient way to perform A V testing, it highly relies on HD maps. The lack of a ready-to-use dataset consisting of diverse highway intersections becomes the bottleneck.
+But here comes the issue of redundancy. 
 
+For example, for the San Francisco map provided by LG SVL, we noticed that over 90% of the routes extracted have similar roads and junction structures. This leads to large amount of duplicated test cases, thus waste of testing efforts. 
 
-To address this issue, we propose a systematic method to generate diverse interchanges with measurable diversity coverage.
+To solve this, a way to classify routes need to be proposed to quantitatively group test cases and identify representives test cases from each group. 
 
-
-FLYOVER
+Methodology
 ======
-A. Modeling of Interchange Topology
+As mentioned earlier, each route contians two roads and one junction. 
 
-We apply labeled digraph to model interchange typologies.
+We define the following features to classify the junctions:
 
+has_traffic_light
 
-Given an interchange J with n one-way roads and m ramps, its topology model, denoted as GJ = ⟨V, E, T, f⟩. The labels denote how a ramp connects to a road or another ramp. Hence, we have four labels: T = {Out-R, Out-L, In-R, In-L}, where Out-R (resp., Out-L) means the ramp leaves a road/ramp on its right (resp., left), and In-R (resp., In-L) means the ramp merges into a road/ramp from its right (resp., left).
+has_stop_sign
 
+has_incoming_crosswalk
 
-For example, Fig. 1(b) presents the topology model of the interchange J1 (Fig. 1(a)).
+has_outgoing_crosswalk
 
-![test_img](../images/FLtupian01.png)
+topology feature
 
+The topolgy feature is denoted by the co nectivity of the connected roads and thus represents the direction of the traffic flow through the junction.  
 
-B. Topology-Based Interchange Classification
+The following diagram visualizes some of the topology features extracted from the San Francisco map. It can be seen that the topology feature not only records the traffic flow information but also implies the shape (i.e. geometry) of the junction. 
 
-Given two interchanges J and J ′, and their topology models G = ⟨V, E, T, fE⟩ and G′ = ⟨V ′, E′, T ′, f ′E⟩, G and G′ are isomorphic, denoted as G ≌ G′, if there exists a bijective function g : V → V ′ such that: (1) ∀u, v ∈ V , (u, v) ∈ E ⇔ (g′(u), g′(v)) ∈ E′, and (2) ∀(u, v) ∈ E, fE(u, v) = f ′E(g(u), g(v)).
+![test_img](../images/tupian01.png)
 
+We define the following features to model the driving behavior on roads:
 
-J and J ′ are called topology isomorphism. Two interchanges J1 and J2 are topology equivalent if they are topology isomorphism.
+number_of_lane_changes_before_junction
 
+number_of_lane_changes_after_junction
 
-According to the above definitions, we can classify interchanges into different equivalency classes.
+The extracted road features are shown below
 
+![test_img](../images/tupian02.png)
 
-C. Coverage-Guided Interchange Sampling
+We then define the route feature to be a combination of road features and junction features and classify routes extracted from the whole map into route groups. 
 
-* In this paper, we mainly focus on the planning and control modules of an A V , so we identify the following features:
+In each route group, all the route members are considered equivalent in and can be selected as a representative test case.
 
-* the number of lanes for a one-way road, which affects the local trajectory computation of an A V
+As a result, duplicated test cases can be elimitated by selecting only one route from each group, and the total number of test cases is significantly reduced while covering the same level of scenario diverisity. 
 
-* minimum radius of a ramp, which determines the speed limit of the ramp
+Below are some of the discovered issues of the open-source Apollo stack:
 
-* maximum longitudinal slope of a ramp, which has a significant impact on the throttle control of an A V
+Failed to change lane
 
+![test_img](../images/dongtu05.png)
 
-Meanwhile, to preserve the geometrical diversity while minimizing duplication, we opt for 2-way combinations to balance the combinatorial coverage and the number of generated interchanges.
+Stuck at stop sign junction
 
-  
-Examples of Generated Interchanges
-======
+![test_img](../images/dongtu06.png)
 
+Produced inefficient routing
 
-In our example, we search for the interchanges in Hangzhou using the keyword “highway interchange” on the GaoDe map, resulting in 39 interchanges in 2D space.
+![test_img](../images/dongtu07.png)
 
+Readers are referred to the following paper for more details.
 
-We then apply FLYOVER to normalize the interchanges’ locations, construct their topology models, and classify them into 21 topology-equivalency classes. For each class, FLYOVER uses 2-way combinatorial sampling and differential evolution to generate 1443 interchange samples. The detailed statistic data is given in Table. I.
-
-![test_img](../images/FLtupian02.png)  ![test_img](../images/FLdongtu01.png)
-
-
-This is the Dataset Generation Pipeline：
-
-
-![test_img](../images/FLtupian02.png)
-
-
-To illustrate the diversity and applicability of the generated interchange dataset, we test the built-in traffic flow control algorithm in SUMO and the fuel-optimization trajectory tracking algorithm deployed to Alibaba’s autonomous trucks on the dataset. The results show that except for the geometrical difference, the interchanges are diverse in throughput and fuel consumption under the traffic flow control and trajectory tracking algorithms, respectively. 
-
-or more details, please refer to our following papers:
-
-
-Yuan Zhou, Gengjie Lin, Yun Tang,  "FLYOVER: A Model-Driven Method to Generate Diverse Highway Interchanges for Autonomous Vehicle Testing," which is Accepted by ICRA  2023
-
-https://doi.org/10.48550/arXiv.2301.12738
-
-Here you can download our dataset:  https://ntutangyun.github.io/highway-interchange-dataset-website/ 
+Y. Tang et al., "Route Coverage Testing for Autonomous Vehicles via Map Modeling," 2021 IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 11450-11456, doi: 10.1109/ICRA48506.2021.9560890.[URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9560890&isnumber=9560666)
 
