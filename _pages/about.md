@@ -31,9 +31,8 @@ Interactive scenario generation
 
 We sincerely welcome more scholars to join our research work . 
 
-![test_img](../images/collision.GIF)
 
-
-A data-driven personal website
+Some publicly available rearch
 ======
 
+![test_img](../images/collision.GIF)
