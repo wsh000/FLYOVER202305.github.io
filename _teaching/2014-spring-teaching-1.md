@@ -21,8 +21,48 @@ We define the intersection feature of each junction lane as a set of tuples, eac
 Similar to the previous work, we collect all the junction lanes and classify them into different junction lane groups based on their intersection feature.
 
 The resulted junction lane classes of the San Francisco map is shown below.
-111
-![test](../images/ABCD.png)
+
+![test](../images/tupian03.png)
+
+From each junction lane classes, the lanes are considered equivalent in the potential types of collision scenario and thus can be selected randomly to represent its class.
+
+Choosing the junction lane to test is not the end. We need to assign NPC vehicles following its intersecting junction lanes. 
+
+For simplicity, assume the NPC vehicles moves in a constant speed following their assigned path. We then have the following parameters to concretize each test scenario:
+
+each NPC's trigger distance (when to start the NPC vehicle when the EGO is xxx meters away from the junction).
+
+each NPC's driving speed.
+
+Given that each lane may have multiple intersecting lanes, thus multiple NPC vehicles involved in each test. The curse of dimensionality applies and it becomes infeasible to cover all the combinations especially with continuous paramters such as distance and speed. We thus applied the Genetic Algorithm to search towards collision test cases (local optimum). 
+
+The overall diagram is shown below:
+
+
+![test](../images/tupian04.png)
+
+Below are some of the collision test cases that we discovered during experiments:
+
+Deadlock
+
+![test](../images/tupian05.png)
+
+Incorrect transition from yielding to overtaking
+
+![test](../images/tupian06.png)
+
+Incorrect Prediction of NPC Trajectory
+
+![test](../images/tupian07.png)
+
+For more details, please refer to our following papers:
+
+Y. Tang, Y. Zhou, Y. Liu, J. Sun and G. Wang, "Collision Avoidance Testing for Autonomous Driving Systems on Complete Maps," 2021 IEEE Intelligent Vehicles Symposium (IV), 2021, pp. 179-185, doi: 10.1109/IV48863.2021.9575536. [URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9575536&isnumber=9575130)
+
+Y. Tang, et al., "Systematic Testing of Autonomous Driving Systems Using Map Topology-Based Scenario Classification," in 2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE), Melbourne, Australia, 2021 pp. 1342-1346. [url]( https://doi.ieeecomputersociety.org/10.1109/ASE51524.2021.9678735)
+
+
+
 
 Heading 1
 ======
