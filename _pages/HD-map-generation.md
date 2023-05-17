@@ -65,4 +65,11 @@ As mentioned earlier, the method aslo accepts manual feature definitions. The ge
 
 ![test_img](../images/HDtupian03.png)
 
+3D HD map generations are also supported (only for the purpose of simulation-based testing). 
+
+Shown below is a test scenario on a 3D flyover with lane-following obstacles:
+
+![test_img](../images/HDdongtu01.GIF)
+
+This work is currently under review. More details will be released later.
 
