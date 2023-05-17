@@ -69,7 +69,7 @@ As mentioned earlier, the method aslo accepts manual feature definitions. The ge
 
 Shown below is a test scenario on a 3D flyover with lane-following obstacles:
 
-![test_img](../images/HDdongtu01.GIF)
+![test_img](../images/HDdongtu.GIF)
 
 This work is currently under review. More details will be released later.
 
