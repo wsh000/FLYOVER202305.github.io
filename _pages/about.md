@@ -86,7 +86,7 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 ![test_img](../images/collision.GIF)
 
 <iframe 
-src="../videos/saple.webm" 
+src="../videos/sample.webm" 
 scrolling="no" 
 border="0" 
 frameborder="no" 
