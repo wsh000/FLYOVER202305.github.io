@@ -59,7 +59,7 @@ Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and ef
 However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
 
 
-MORE
+More rearch
 ======
 
 
@@ -84,6 +84,31 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 [Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
 
 ![test_img](../images/homedongtu04.gif)
+
+
+
+Dharma Institute technical interpretation
+======
+
+Question: How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
+
+<iframe 
+src="../videos/sample.webm" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
+
+Alibaba technology interpretation
+======
+
+Question: How can simulated maps protect autonomous driving?
+
 
 <iframe 
 src="../videos/sample.webm" 
