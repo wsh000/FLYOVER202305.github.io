@@ -11,22 +11,22 @@ redirect_from:
 Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research. which aims to develop reliable, interpretable, and verifiable autonomous simulation data solutions. The current research directions are as follows:
 
 
-Autonomous driving data mining and clustering
+* Autonomous driving data mining and clustering
 
 
-Simulation scenario modeling and generation
+* Simulation scenario modeling and generation
 
 
-Safety scenario analysis and reconstruction
+* Safety scenario analysis and reconstruction
 
 
-Fault injection and adversarial attacks
+* Fault injection and adversarial attacks
 
 
-Accelerated longtail scenario generation
+* Accelerated longtail scenario generation
 
 
-Interactive scenario generation
+* Interactive scenario generation
 
 
 We sincerely welcome more scholars to join our research work . 
