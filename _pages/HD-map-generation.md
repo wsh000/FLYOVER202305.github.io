@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /year-archive/
+permalink: /HD-map-generation/
 title: ""
 author_profile: true
 
