@@ -83,7 +83,7 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 [Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
 
-![test_img](../images/homedongtu04.GIF)
+![test_img](../images/homedongtu04.gif)
 
 <iframe 
 src="../videos/sample.webm" 
