@@ -63,17 +63,17 @@ As a result, duplicated test cases can be elimitated by selecting only one route
 
 Below are some of the discovered issues of the open-source Apollo stack:
 
-Failed to change lane
+* Failed to change lane
 
-![test_img](../images/dongtu05.png)
+![test_img](../images/TOPOdongtu01.GIF)
 
-Stuck at stop sign junction
+* Stuck at stop sign junction
 
-![test_img](../images/dongtu06.png)
+![test_img](../images/TOPOdongtu02.GIF)
 
-Produced inefficient routing
+* Produced inefficient routing
 
-![test_img](../images/dongtu07.png)
+![test_img](../images/TOPOdongtu03.GIF)
 
 Readers are referred to the following paper for more details.
 
