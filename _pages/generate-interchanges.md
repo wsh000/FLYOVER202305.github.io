@@ -74,7 +74,7 @@ We then apply FLYOVER to normalize the interchanges’ locations, construct thei
 
 ![test_img](../images/FLtupian02.png)  
 
-![test_img](../images/FLdongtu01.png)
+![test_img](../images/gendongtu01.GIF)
 
 This is the Dataset Generation Pipeline：
 
@@ -85,9 +85,9 @@ To illustrate the diversity and applicability of the generated interchange datas
 
 or more details, please refer to our following papers:
 
-![test_img](../images/FLtupian03.png)
+![test_img](../images/gendongtu02.GIF)
 
-![test_img](../images/FLtupian03.png)
+![test_img](../images/gendongtu03.GIF)
 
 Yuan Zhou, Gengjie Lin, Yun Tang,  "FLYOVER: A Model-Driven Method to Generate Diverse Highway Interchanges for Autonomous Vehicle Testing," which is Accepted by ICRA  2023
 
