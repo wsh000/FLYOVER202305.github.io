@@ -1,12 +1,7 @@
 ---
 layout: archive
-<<<<<<< HEAD
-title: ""
-permalink: /collisoin-avoidance/
-=======
 title: "COLLISOIN-AVOIDANCE"
-permalink: /teaching/
->>>>>>> 8d5c77a0c5d209133be95ee8a20321538aed4aa5
+permalink: /collisoin-avoidance/
 author_profile: true
 ---
 
