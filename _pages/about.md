@@ -78,7 +78,7 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 [HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
 
-![test_img](../images/hometupian.png)
+![test_img](../images/hometupian03.png)
 
 
 [Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
