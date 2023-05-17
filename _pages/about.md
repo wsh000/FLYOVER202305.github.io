@@ -32,9 +32,9 @@ Interactive scenario generation
 We sincerely welcome more scholars to join our research work . 
 
 
-Some publicly available rearch——HD Map-based Functional Safety Testing of Autonomous vehicles
+Some publicly available rearch
 ======
-
+——HD Map-based Functional Safety Testing of Autonomous vehicles
 
 Scenario-based testing has been the de facto method for the functional safety verification of autonomous vehicles.
 
