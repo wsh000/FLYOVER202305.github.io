@@ -35,7 +35,7 @@ Given an interchange J with n one-way roads and m ramps, its topology model, den
 
 For example, Fig. 1(b) presents the topology model of the interchange J1 (Fig. 1(a)).
 
-![test_img](../images/rearch1.png)
+![test_img](../images/FLtupian01.png)
 
 
 B. Topology-Based Interchange Classification
@@ -48,7 +48,6 @@ J and J ′ are called topology isomorphism. Two interchanges J1 and J2 are topo
 
 According to the above definitions, we can classify interchanges into different equivalency classes.
 
-![test_img](../images/rearch1.png)
 
 C. Coverage-Guided Interchange Sampling
 
@@ -63,7 +62,6 @@ C. Coverage-Guided Interchange Sampling
 
 Meanwhile, to preserve the geometrical diversity while minimizing duplication, we opt for 2-way combinations to balance the combinatorial coverage and the number of generated interchanges.
 
-![test_img](../images/rearch1.png)
   
 Examples of Generated Interchanges
 ======
@@ -74,7 +72,14 @@ In our example, we search for the interchanges in Hangzhou using the keyword “
 
 We then apply FLYOVER to normalize the interchanges’ locations, construct their topology models, and classify them into 21 topology-equivalency classes. For each class, FLYOVER uses 2-way combinatorial sampling and differential evolution to generate 1443 interchange samples. The detailed statistic data is given in Table. I.
 
+![test_img](../images/FLtupian02.png)  ![test_img](../images/FLdongtu01.png)
+
+
 This is the Dataset Generation Pipeline：
+
+
+![test_img](../images/FLtupian02.png)
+
 
 To illustrate the diversity and applicability of the generated interchange dataset, we test the built-in traffic flow control algorithm in SUMO and the fuel-optimization trajectory tracking algorithm deployed to Alibaba’s autonomous trucks on the dataset. The results show that except for the geometrical difference, the interchanges are diverse in throughput and fuel consumption under the traffic flow control and trajectory tracking algorithms, respectively. 
 
