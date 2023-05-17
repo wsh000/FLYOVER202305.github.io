@@ -50,6 +50,15 @@ A layered structure of scenario elements has been proposed as shown on the right
 ![test_img](../images/rearch1.png)
 
 
+From the layered model it can be seen that the road level (L1) and Traffic Infrastructures (L2) lays the foundation for scenario elements of higher levels (e.g. L3, L4). 
+
+Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and efficiency. 
+
+ 
+
+However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
+
+
 Some publicly available rearch
 ======
 
