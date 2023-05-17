@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /talks/
+permalink: /topology-coverage-guided/
 author_profile: true
 ---
 
