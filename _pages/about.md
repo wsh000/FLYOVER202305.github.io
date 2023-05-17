@@ -71,6 +71,6 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 ![test_img](../images/collision.GIF)
 
 
-Collisoin Avoidance Testing
+[Collisoin Avoidance Testing](https://flyover202305.github.io//teaching/)
 
 ![test_img](../images/collision.GIF)
