@@ -29,15 +29,15 @@ As mentioned earlier, each route contians two roads and one junction.
 
 We define the following features to classify the junctions:
 
-has_traffic_light
+* has_traffic_light
 
-has_stop_sign
+* has_stop_sign
 
-has_incoming_crosswalk
+* has_incoming_crosswalk
 
-has_outgoing_crosswalk
+* has_outgoing_crosswalk
 
-topology feature
+* topology feature
 
 The topolgy feature is denoted by the co nectivity of the connected roads and thus represents the direction of the traffic flow through the junction.  
 
