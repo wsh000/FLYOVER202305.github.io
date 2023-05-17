@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Topology coverage-Guided Testing"
+title: ""
 permalink: /talks/
 author_profile: true
 ---
