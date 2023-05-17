@@ -12,7 +12,7 @@ author_profile: true
 
 Introduction
 ======
-AAAIn city-driving scenarios, collisions often happen in junctions as the connecting lanes of junctions naturally intersects each other. When there is no traffic control (e.g. traffic light or stop signs), vehicles needs to negotiate the right of way before driving through. When such negotiation fails, collision may happen where the traffic lanes intersect. 
+In city-driving scenarios, collisions often happen in junctions as the connecting lanes of junctions naturally intersects each other. When there is no traffic control (e.g. traffic light or stop signs), vehicles needs to negotiate the right of way before driving through. When such negotiation fails, collision may happen where the traffic lanes intersect. 
 
 We follow the same definition of a route in the previous work (topoloyg coverage-guided testing) but modify a little bit.  For collision avoidance testing, we no longer care about the lane changes behavior (not because it's less important) before and after junctions and included the intersection feature of each junction lanes which EGO veihcle follows during each test case. 
 
@@ -43,6 +43,27 @@ Given that each lane may have multiple intersecting lanes, thus multiple NPC veh
 The overall diagram is shown below:
 
 ![test_img](../images/tupian04.png)
+
+Below are some of the collision test cases that we discovered during experiments:
+
+* Deadlock
+
+![test_img](../images/COLLdongtu01.GIF)
+
+* Incorrect transition from yielding to overtaking
+
+![test_img](../images/COLLdongtu02.GIF)
+
+* Incorrect Prediction of NPC Trajectory
+
+![test_img](../images/COLLdongtu03.GIF)
+
+For more details, please refer to our following papers:
+
+Y. Tang, Y. Zhou, Y. Liu, J. Sun and G. Wang, "Collision Avoidance Testing for Autonomous Driving Systems on Complete Maps," 2021 IEEE Intelligent Vehicles Symposium (IV), 2021, pp. 179-185, doi: 10.1109/IV48863.2021.9575536. [URL]( https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9575536&isnumber=9575130)
+
+Y. Tang, et al., "Systematic Testing of Autonomous Driving Systems Using Map Topology-Based Scenario Classification," in 2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE), Melbourne, Australia, 2021 pp. 1342-1346. [URL]( https://doi.ieeecomputersociety.org/10.1109/ASE51524.2021.9678735)
+
 
 Methodology
 ======
