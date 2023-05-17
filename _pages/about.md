@@ -71,17 +71,17 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 ![test_img](../images/collision.GIF)
 
 
-[Collisoin Avoidance Testing](https://flyover202305.github.io//teaching/)
+[Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
 
 ![test_img](../images/collision.GIF)
 
 
-[HD Map Generation](https://flyover202305.github.io//year-archive/)
+[HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
 
 ![test_img](../images/collision.GIF)
 
 
-[Generate interchanges](https://flyover202305.github.io//cv/)
+[Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
 
 ![test_img](../images/collision.GIF)
 
