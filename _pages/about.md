@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
-    Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research. which aims to develop reliable, interpretable, and verifiable autonomous simulation data solutions. The current research directions are as follows:
+Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research. which aims to develop reliable, interpretable, and verifiable autonomous simulation data solutions. The current research directions are as follows:
 
 
 Autonomous driving data mining and clustering
