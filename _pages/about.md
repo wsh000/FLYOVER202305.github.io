@@ -8,7 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-In collaboration with Nanyang Technological University and Alibaba Autonomous Driving Lab, we have conducted the following research aimed at filling the above gaps. An overview of the scene hierarchy model (Bagschik et al. 2018) and the last relevant event. (Gelder, ED, et al., 2022). High-definition map-based functional safety testing of autonomous vehicles, Yun Tang
+Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research. which aims to develop reliable, interpretable, and verifiable autonomous simulation data solutions. The current research directions are as follows:
+
+
+Autonomous driving data mining and clustering
+
+
+Simulation scenario modeling and generation
+
+
+Safety scenario analysis and reconstruction
+
+
+Fault injection and adversarial attacks
+
+
+Accelerated longtail scenario generation
+
+
+Interactive scenario generation
 
 ![test_img](../images/collision.GIF)
 
