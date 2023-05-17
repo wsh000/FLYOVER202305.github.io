@@ -35,6 +35,9 @@ Given an interchange J with n one-way roads and m ramps, its topology model, den
 
 For example, Fig. 1(b) presents the topology model of the interchange J1 (Fig. 1(a)).
 
+![test_img](../images/rearch1.png)
+
+
 B. Topology-Based Interchange Classification
 
 Given two interchanges J and J ′, and their topology models G = ⟨V, E, T, fE⟩ and G′ = ⟨V ′, E′, T ′, f ′E⟩, G and G′ are isomorphic, denoted as G ≌ G′, if there exists a bijective function g : V → V ′ such that: (1) ∀u, v ∈ V , (u, v) ∈ E ⇔ (g′(u), g′(v)) ∈ E′, and (2) ∀(u, v) ∈ E, fE(u, v) = f ′E(g(u), g(v)).
@@ -44,6 +47,8 @@ J and J ′ are called topology isomorphism. Two interchanges J1 and J2 are topo
 
 
 According to the above definitions, we can classify interchanges into different equivalency classes.
+
+![test_img](../images/rearch1.png)
 
 C. Coverage-Guided Interchange Sampling
 
@@ -57,6 +62,8 @@ C. Coverage-Guided Interchange Sampling
 
 
 Meanwhile, to preserve the geometrical diversity while minimizing duplication, we opt for 2-way combinations to balance the combinatorial coverage and the number of generated interchanges.
+
+![test_img](../images/rearch1.png)
   
 Examples of Generated Interchanges
 ======
