@@ -42,33 +42,6 @@ The Autopilot Lab is committed to researching the core technologies of autopilot
 ![test_img](../images/dmytdjs.png)
 
 
-
-ACADEMIC RESEARCH
-======
-
-In collaboration with Nanyang Technological University and Alibaba Autonomous Driving Lab, we have conducted the following research aimed at filling the above gaps. An overview of the scene hierarchy model (Bagschik et al. 2018) and the last relevant event. (Gelder, ED, et al., 2022). High-definition map-based functional safety testing of autonomous vehicles, Yun Tang
-
-
-[Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
-
-<img src = "../images/homedongtu01.GIF"   width = 405>     
-
-
-[Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
-
-<img src = "../images/homedongtu02.GIF"  width = 405>
-
-[HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
-
-<img src="../images/hometupian03.jpg" />
-
-
-[Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
-
-<img src="../images/homedongtu04.gif" width=405 />
-
-
-
 INDUSTRY INFLUENCE
 ======
 
@@ -97,5 +70,30 @@ allowfullscreen="true"
 height=600 
 width=800> 
 </iframe>
+
+
+ACADEMIC RESEARCH
+======
+
+In collaboration with Nanyang Technological University and Alibaba Autonomous Driving Lab, we have conducted the following research aimed at filling the above gaps. An overview of the scene hierarchy model (Bagschik et al. 2018) and the last relevant event. (Gelder, ED, et al., 2022). High-definition map-based functional safety testing of autonomous vehicles, Yun Tang
+
+
+[Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
+
+<img src = "../images/homedongtu01.GIF"   width = 405>     
+
+
+[Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
+
+<img src = "../images/homedongtu02.GIF"  width = 405>
+
+[HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
+
+<img src="../images/hometupian03.jpg" />
+
+
+[Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
+
+<img src="../images/homedongtu04.gif" width=405 />
 
 
