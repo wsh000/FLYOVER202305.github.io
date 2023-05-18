@@ -49,6 +49,8 @@ INDUSTRY INFLUENCE
 
 [COMPETITION TITLE](https://tianchi.aliyun.com/competition/entrance/531996/information)
 
+<img src = "../images/saiti.gif"   width = 800>     
+
 [HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
 
 <img src = "../images/tianchibisai.png"  width = 405>
