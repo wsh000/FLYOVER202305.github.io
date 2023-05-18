@@ -48,7 +48,7 @@ INDUSTRY INFLUENCE
 [HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
 
 
-The Management Committee of Shanghai Jinqiao Economic and Technological Development Zone jointly launched the 2022 Global "Future Car" scene Innovation Challenge. Aiming at the high-speed autonomous driving scene, the "intelligent algorithm competition" was set up. The competition questions covered the typical tasks of other car merging, accident detour, low-speed vehicle detour, etc. The participating teams conducted algorithm training and testing based on the Dharma Institute simulation platform.
+The first high-speed autonomous driving simulation Challenge in China, relying on the powerful Ali Cloud infrastructure "Cloud efficient car training", attracted more than 1,500 teams to participate, with master and Bo accounting for 15% and C9 universities accounting for 56%. One of the top judges in the autonomous driving industry and a number of professors from prestigious universities.
 
 <img src = "../images/tianchibisai.png"  width = 405>
 
