@@ -73,13 +73,8 @@ LEARN MORE:
 
 [TECHNICAL INTERPRETATION VIDEO](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
 
+[GITHUB SITE ADDRESS](https://ntutangyun.github.io/highway-interchange-dataset-website/)
 
-[GITHUB SITE ADDRESS]([https://tianchi.aliyun.com/competition/entrance/531996/information](https://ntutangyun.github.io/highway-interchange-dataset-website/))
-
-
-—— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
-
-[CLICK HERE TO GET COMPLETE EDITION](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
 
 <iframe 
 src="../videos/jishujieduyasuo.webm" 
