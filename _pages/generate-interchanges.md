@@ -72,9 +72,10 @@ In our example, we search for the interchanges in Hangzhou using the keyword “
 
 We then apply FLYOVER to normalize the interchanges’ locations, construct their topology models, and classify them into 21 topology-equivalency classes. For each class, FLYOVER uses 2-way combinatorial sampling and differential evolution to generate 1443 interchange samples. The detailed statistic data is given in Table. I.
 
-![test_img](../images/FLtupian02.png)  
 
 <img src = "../images/FLtupian02.png"   width = 600>     
+
+<img src = "../images/gendongtu01.GIF"   width = 600>     
 
 ![test_img](../images/gendongtu01.GIF)
 
