@@ -32,10 +32,10 @@ Nanyang Technological University and Alibaba Self-driving Lab are collaborating 
 We sincerely welcome more scholars to join our research work . 
 
 
-TEAM INTRODUCTION
+TEAM COOPERATION
 ======
 
-The Autopilot Lab is committed to researching the core technologies of autopilot, such as machine learning, integrated design of hardware and software, perception/decision planning/positioning, etc., so as to realize its productization, scale and commercialization, promote industrial reform with technological development, and carry the mission of empowering the important fields of national economy and people's livelihood such as logistics, transportation, safety, and municipal affairs with autopilot technology.
+Alibaba Autonomous Driving Lab, Nanyang Technological University and Tianjin University are collaborating on autonomous driving technology with the aim of developing reliable, interpretable and verifiable autonomous simulation data solutions. The main cooperation teams are as follows:
 
 <img src = "../images/hezuotuandui.png"   width = 800>     
 
