@@ -52,12 +52,12 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 [Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
 
-<img src = "../images/homedongtu01.GIF"   width = 300>     
+<img src = "../images/homedongtu01.GIF"   width = 405>     
 
 
 [Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
 
-<img src = "../images/homedongtu02.GIF"  width = 300>
+<img src = "../images/homedongtu02.GIF"  width = 405>
 
 [HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
 
@@ -74,6 +74,10 @@ INDUSTRY INFLUENCE
 ======
 
 Question: How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
+
+[LEARN MORE ABOUT OUR TECHNICAL INTERPRETION](https://flyover202305.github.io//HD-map-generation/)
+
+<img src = "../images/homedongtu02.GIF"   width = 600>     
 
 <iframe 
 src="../videos/sample.webm" 
