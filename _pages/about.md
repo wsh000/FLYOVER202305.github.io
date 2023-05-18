@@ -43,7 +43,7 @@ Alibaba Autonomous Driving Lab, Nanyang Technological University and Tianjin Uni
 INDUSTRY INFLUENCE
 ======
 
-* PROFESSIONAL COMPETITION 
+* 2022 "TIANCHI" SIMULATION COMPETITION  
 
 [HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
 
