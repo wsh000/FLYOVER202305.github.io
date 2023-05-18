@@ -69,6 +69,14 @@ MATRIX FLYOVER(High precision map simulation data set of high-speed hubs in Chin
 
 At present, there are 1443 HD Maps, based on Hangzhou real data generalization generation, support mainstream formats (open drive & sumo & apollo), parameter sampling and generalization in line with highway junction design specifications. This Dataset filled the gap of the lack of real and high precision and generalization of hdmap in the industry, and provided the basis for the subsequent map-based construction of more abundant scene library and related automatic driving research. The relevant results were published in the robot top meeting ICRA 2023,[See details](https://arxiv.org/abs/2301.12738).
 
+LEARN MORE:
+
+[TECHNICAL INTERPRETATION VIDEO](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
+
+
+[GITHUB SITE ADDRESS]([https://tianchi.aliyun.com/competition/entrance/531996/information](https://ntutangyun.github.io/highway-interchange-dataset-website/))
+
+
 —— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
 
 [CLICK HERE TO GET COMPLETE EDITION](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
@@ -88,7 +96,6 @@ width=800>
 
 ACADEMIC RESEARCH
 ======
-
 
 
 [TOPOLOGY COVERAGE-GUIDED TESTING](https://flyover202305.github.io//topology-coverage-guided/)
