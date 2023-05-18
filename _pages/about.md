@@ -32,36 +32,17 @@ Nanyang Technological University and Alibaba Self-driving Lab are collaborating 
 We sincerely welcome more scholars to join our research work . 
 
 
-Some publicly available rearch
+TEAM INTRODUCTION
 ======
-——HD Map-based Functional Safety Testing of Autonomous vehicles
-
-Scenario-based testing has been the de facto method for the functional safety verification of autonomous vehicles.
-
-The term "scenario" is commonly defined as:
-
-
-"... a quantitative description of the relevant characteristics and activities and/or goals of the ego vehicle(s), the static environment, the dynamic environment, and all events that are relevant to the ego vehicle(s) within the time interval between the first and the last relevant event."  (Gelder, E. D. et al. 2022).
-
-
-A layered structure of scenario elements has been proposed as shown on the right.
+Nanyang Technological University and Alibaba Self-driving Lab are collaborating on autonomous driving technology research
 
 
 ![test_img](../images/rearch1.png)
 
 
-From the layered model it can be seen that the road level (L1) and Traffic Infrastructures (L2) lays the foundation for scenario elements of higher levels (e.g. L3, L4). 
 
-Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and efficiency. 
-
- 
-
-However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
-
-
-More rearch
+ACADEMIC RESEARCH
 ======
-
 
 In collaboration with Nanyang Technological University and Alibaba Autonomous Driving Lab, we have conducted the following research aimed at filling the above gaps. An overview of the scene hierarchy model (Bagschik et al. 2018) and the last relevant event. (Gelder, ED, et al., 2022). High-definition map-based functional safety testing of autonomous vehicles, Yun Tang
 
@@ -86,7 +67,7 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 
 
 
-Dharma Institute technical interpretation
+INDUSTRY INFLUENCE
 ======
 
 Question: How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
@@ -102,21 +83,4 @@ height=600
 width=800> 
 </iframe>
 
-
-Alibaba technology interpretation
-======
-
-Question: How can simulated maps protect autonomous driving?
-
-
-<iframe 
-src="../videos/sample.webm" 
-scrolling="no" 
-border="0" 
-frameborder="no" 
-framespacing="0" 
-allowfullscreen="true" 
-height=600 
-width=800> 
-</iframe>
 
