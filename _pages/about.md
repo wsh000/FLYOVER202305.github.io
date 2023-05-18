@@ -45,20 +45,20 @@ The Autopilot Lab is committed to researching the core technologies of autopilot
 INDUSTRY INFLUENCE
 ======
 
-* Professional competition
+* PROFESSIONAL COMPETITION 
 
-[High-speed autonomous driving algorithm race](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
+[HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
 
 
 The Management Committee of Shanghai Jinqiao Economic and Technological Development Zone jointly launched the 2022 Global "Future Car" scene Innovation Challenge. Aiming at the high-speed autonomous driving scene, the "intelligent algorithm competition" was set up. The competition questions covered the typical tasks of other car merging, accident detour, low-speed vehicle detour, etc. The participating teams conducted algorithm training and testing based on the Dharma Institute simulation platform.
 
 <img src = "../images/tianchibisai.png"  width = 405>
 
-* Technical interpretation
+* TECHNICAL INTERPRETATION 
 
 —— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
 
-[Click here to get Complete edition](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
+[CLICK HERE TO GET COMPLETE EDITION](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
 
 <iframe 
 src="../videos/jishujieduyasuo.webm" 
@@ -72,27 +72,52 @@ width=800>
 </iframe>
 
 
+
 ACADEMIC RESEARCH
 ======
+
+* SOME PUBLICLY AVAILABLE REARCH
+
+——HD Map-based Functional Safety Testing of Autonomous vehicles
+
+Scenario-based testing has been the de facto method for the functional safety verification of autonomous vehicles.
+
+The term "scenario" is commonly defined as:
+
+
+"... a quantitative description of the relevant characteristics and activities and/or goals of the ego vehicle(s), the static environment, the dynamic environment, and all events that are relevant to the ego vehicle(s) within the time interval between the first and the last relevant event."  (Gelder, E. D. et al. 2022).
+
+
+A layered structure of scenario elements has been proposed as shown on the right.
+
+<img src = "../images/tupian01.png"   width = 405>     
+
+From the layered model it can be seen that the road level (L1) and Traffic Infrastructures (L2) lays the foundation for scenario elements of higher levels (e.g. L3, L4). 
+
+Hence, L1 and L2 (i.e. HD maps) are the basics for the scenario diversity and efficiency. 
+
+
+However, it is resource-consuming to construct high quality HD maps, which are, as a result, often overlooked during test scenario construction.
+* MORE REARCH
 
 In collaboration with Nanyang Technological University and Alibaba Autonomous Driving Lab, we have conducted the following research aimed at filling the above gaps. An overview of the scene hierarchy model (Bagschik et al. 2018) and the last relevant event. (Gelder, ED, et al., 2022). High-definition map-based functional safety testing of autonomous vehicles, Yun Tang
 
 
-[Topology coverage-Guided Testing](https://flyover202305.github.io//topology-coverage-guided/)
+[TOPOLOGY COVERAGE-GUIDED TESTING](https://flyover202305.github.io//topology-coverage-guided/)
 
 <img src = "../images/homedongtu01.GIF"   width = 405>     
 
 
-[Collisoin Avoidance Testing](https://flyover202305.github.io//collisoin-avoidance/)
+[COLLISOIN AVOIDANCE TESTING](https://flyover202305.github.io//collisoin-avoidance/)
 
 <img src = "../images/homedongtu02.GIF"  width = 405>
 
-[HD Map Generation](https://flyover202305.github.io//HD-map-generation/)
+[HD MAP GENERATION](https://flyover202305.github.io//HD-map-generation/)
 
 <img src="../images/hometupian03.jpg" />
 
 
-[Generate interchanges](https://flyover202305.github.io//generate-interchanges/)
+[GENERATE INTERCHANGES](https://flyover202305.github.io//generate-interchanges/)
 
 <img src="../images/homedongtu04.gif" width=405 />
 
