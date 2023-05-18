@@ -53,9 +53,9 @@ The first high-speed autonomous driving simulation Challenge in China, relying o
 
 <img src = "../images/saiti.gif"   width = 800>     
 
-[HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
+[COMPETITION INTRODUCTION VIDEO](https://tianchi.aliyun.com/competition/entrance/531996/information)
 
-<img src = "../images/tianchibisai.png"  width = 405>
+
 
 * TECHNICAL INTERPRETATION 
 
