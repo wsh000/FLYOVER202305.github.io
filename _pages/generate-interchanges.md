@@ -74,6 +74,7 @@ We then apply FLYOVER to normalize the interchanges’ locations, construct thei
 
 ![test_img](../images/FLtupian02.png)  
 
+<img src = "../images/FLtupian02.png"   width = 600>     
 
 ![test_img](../images/gendongtu01.GIF)
 
