@@ -63,6 +63,10 @@ LEARN MORE:
 
 * DATA SET:MATRIX FLYOVER
 
+MATRIX FLYOVER(High precision map simulation data set of high-speed hubs in China),Developed by Alibaba and Nanyang Technological in Singapore. In view of the large amount of testing required for 160,000 km expressway in China and the high cost of high-precision map generation, it is difficult to solve the problem of test generalization. The simulation map data set of high-speed hub is constructed based on simulation generation.
+
+<img src = "../images/shujuji.png"   width = 800>     
+
 —— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
 
 [CLICK HERE TO GET COMPLETE EDITION](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
