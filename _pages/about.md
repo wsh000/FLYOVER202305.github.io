@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "ABOUT "
+title: "ADST INTRODUCTION"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
