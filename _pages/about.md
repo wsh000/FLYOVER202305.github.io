@@ -40,7 +40,7 @@ The Autopilot Lab is committed to researching the core technologies of autopilot
 
 [LEARN MORE ABOUT US](https://flyover202305.github.io//topology-coverage-guided/)
 
-![test_img](../images/rearch1.png)
+![test_img](../images/xtuanduijieshao.png)
 
 
 
