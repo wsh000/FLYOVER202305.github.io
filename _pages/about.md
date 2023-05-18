@@ -74,7 +74,8 @@ INDUSTRY INFLUENCE
 
 * Professional competition
 
-[High-speed autonomous driving algorithm race](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)：The Management Committee of Shanghai Jinqiao Economic and Technological Development Zone jointly launched the 2022 Global "Future Car" scene Innovation Challenge. Aiming at the high-speed autonomous driving scene, the "intelligent algorithm competition" was set up. The competition questions covered the typical tasks of other car merging, accident detour, low-speed vehicle detour, etc. The participating teams conducted algorithm training and testing based on the Dharma Institute simulation platform.
+[High-speed autonomous driving algorithm race](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
+The Management Committee of Shanghai Jinqiao Economic and Technological Development Zone jointly launched the 2022 Global "Future Car" scene Innovation Challenge. Aiming at the high-speed autonomous driving scene, the "intelligent algorithm competition" was set up. The competition questions covered the typical tasks of other car merging, accident detour, low-speed vehicle detour, etc. The participating teams conducted algorithm training and testing based on the Dharma Institute simulation platform.
 
 <img src = "../images/homedongtu02.GIF"  width = 405>
 
