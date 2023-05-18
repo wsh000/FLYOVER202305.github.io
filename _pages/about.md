@@ -65,7 +65,9 @@ LEARN MORE:
 
 MATRIX FLYOVER(High precision map simulation data set of high-speed hubs in China),Developed by Alibaba and Nanyang Technological in Singapore. In view of the large amount of testing required for 160,000 km expressway in China and the high cost of high-precision map generation, it is difficult to solve the problem of test generalization. The simulation map data set of high-speed hub is constructed based on simulation generation.
 
-<img src = "../images/shujuji.jpg"   width = 800>     
+<img src = "../images/shujuji.jpg"   width = 800>    
+
+At present, there are 1443 HD Maps, based on Hangzhou real data generalization generation, support mainstream formats (open drive & sumo & apollo), parameter sampling and generalization in line with highway junction design specifications. This Dataset filled the gap of the lack of real and high precision and generalization of hdmap in the industry, and provided the basis for the subsequent map-based construction of more abundant scene library and related automatic driving research. The relevant results were published in the robot top meeting ICRA 2023,[See details](https://arxiv.org/abs/2301.12738).
 
 —— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
 
