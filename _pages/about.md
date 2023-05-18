@@ -39,8 +39,6 @@ The Autopilot Lab is committed to researching the core technologies of autopilot
 
 [LEARN MORE ABOUT US](https://damo.alibaba.com/labs/intelligent-transportation)
 
-![test_img](../images/dmytdjs.png)
-
 
 INDUSTRY INFLUENCE
 ======
