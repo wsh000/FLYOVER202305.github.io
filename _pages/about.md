@@ -73,8 +73,15 @@ In collaboration with Nanyang Technological University and Alibaba Autonomous Dr
 INDUSTRY INFLUENCE
 ======
 
-Question: How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
+* Professional competition
 
+[High-speed autonomous driving algorithm race](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)：The Management Committee of Shanghai Jinqiao Economic and Technological Development Zone jointly launched the 2022 Global "Future Car" scene Innovation Challenge. Aiming at the high-speed autonomous driving scene, the "intelligent algorithm competition" was set up. The competition questions covered the typical tasks of other car merging, accident detour, low-speed vehicle detour, etc. The participating teams conducted algorithm training and testing based on the Dharma Institute simulation platform.
+
+<img src = "../images/homedongtu02.GIF"  width = 405>
+
+* Technical interpretation
+
+—— How complicated are the road conditions facing autonomous driving? How to simulate efficiently?
 
 [Click here to get Complete edition](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
 
