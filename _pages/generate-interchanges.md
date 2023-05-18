@@ -73,10 +73,6 @@ In our example, we search for the interchanges in Hangzhou using the keyword “
 We then apply FLYOVER to normalize the interchanges’ locations, construct their topology models, and classify them into 21 topology-equivalency classes. For each class, FLYOVER uses 2-way combinatorial sampling and differential evolution to generate 1443 interchange samples. The detailed statistic data is given in Table. I.
 
 
-<img src = "../images/FLtupian02.png"   width = 600>     
-
-<img src = "../images/gendongtu01.GIF"   width = 600>     
-
 ![test_img](../images/genhbdongtu.gif)
 
 
@@ -93,7 +89,6 @@ or more details, please refer to our following papers:
 
 ![test_img](../images/gendongtu03.GIF)
 
-![test_img](../images/gendongtu01.GIF)
 
 Yuan Zhou, Gengjie Lin, Yun Tang,  "FLYOVER: A Model-Driven Method to Generate Diverse Highway Interchanges for Autonomous Vehicle Testing," which is Accepted by ICRA  2023
 
