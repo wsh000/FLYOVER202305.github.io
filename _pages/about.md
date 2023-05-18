@@ -45,7 +45,9 @@ INDUSTRY INFLUENCE
 
 * 2022 "TIANCHI" SIMULATION COMPETITION  
 
-The first high-speed autonomous driving simulation Challenge in China, relying on the powerful Ali Cloud infrastructure "Cloud efficient car training", attracted more than 1,500 teams to participate, with master and Bo accounting for 15% and C9 universities accounting for 56%. One of the top judges in the autonomous driving industry and a number of professors from prestigious universities.
+2022 "Tianchi" simulation competition,The first high-speed autonomous driving simulation Challenge in China, relying on the powerful Ali Cloud infrastructure "Cloud efficient car training", attracted more than 1,500 teams to participate, with master and Bo accounting for 15% and C9 universities accounting for 56%. One of the top judges in the autonomous driving industry and a number of professors from prestigious universities.
+
+[COMPETITION TITLE](https://tianchi.aliyun.com/competition/entrance/531996/information)
 
 [HIGH-SPEED AUTONOMOUS DRIVING ALGORITHM RACE](https://baijiahao.baidu.com/s?id=1752261226515303589&wfr=baike)
 
