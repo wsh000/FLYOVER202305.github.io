@@ -90,7 +90,7 @@ The term "scenario" is commonly defined as:
 
 A layered structure of scenario elements has been proposed as shown on the right.
 
-<img src = "../images/tupian01.png"   width = 405>     
+<img src = "../images/xtupian01.png"   width = 405>     
 
 From the layered model it can be seen that the road level (L1) and Traffic Infrastructures (L2) lays the foundation for scenario elements of higher levels (e.g. L3, L4). 
 
