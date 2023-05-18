@@ -77,7 +77,7 @@ We then apply FLYOVER to normalize the interchanges’ locations, construct thei
 
 <img src = "../images/gendongtu01.GIF"   width = 600>     
 
-![test_img](../images/gendongtu01.GIF)
+![test_img](../images/genhbdongtu.GIF)
 
 
 This is the Dataset Generation Pipeline：
