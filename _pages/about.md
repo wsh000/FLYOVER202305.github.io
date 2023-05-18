@@ -37,7 +37,7 @@ TEAM INTRODUCTION
 
 The Autopilot Lab is committed to researching the core technologies of autopilot, such as machine learning, integrated design of hardware and software, perception/decision planning/positioning, etc., so as to realize its productization, scale and commercialization, promote industrial reform with technological development, and carry the mission of empowering the important fields of national economy and people's livelihood such as logistics, transportation, safety, and municipal affairs with autopilot technology.
 
-[LEARN MORE ABOUT US](https://flyover202305.github.io//topology-coverage-guided/)
+[LEARN MORE ABOUT US](https://damo.alibaba.com/labs/intelligent-transportation)
 
 ![test_img](../images/xtuanduijieshao.png)
 
