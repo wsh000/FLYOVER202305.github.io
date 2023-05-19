@@ -37,7 +37,7 @@ TEAM COOPERATION
 
 Alibaba Autonomous Driving Lab, Nanyang Technological University and Tianjin University are collaborating on autonomous driving technology with the aim of developing reliable, interpretable and verifiable autonomous simulation data solutions. The main cooperation teams are as follows:
 
-<img src = "../images/xtuanduijieshao.png"   width = 800>     
+<img src = "../images/xxtuanduijieshao.png"   width = 800>     
 
 
 INDUSTRY INFLUENCE
