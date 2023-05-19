@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+<head>
+  <link href="../_sass/app.3d811261.css" rel="stylesheet">
+</head>
+
+
 ADST ( Autonomous Driving Simulation Test ) focuses on autonomous driving-related testing and simulation technologies. Alibaba's self-driving lab is cooperating with well-known universities at home and abroad to research autonomous driving technology. The current research directions are as follows:
 
 
@@ -88,7 +93,27 @@ ACADEMIC RESEARCH
 [TOPOLOGY COVERAGE-GUIDED TESTING](https://flyover202305.github.io//topology-coverage-guided/)
 
 
-<img src = "../images/xxueshu01.png"   width = 800>    
+<div class="i-list" data-v-662c1668="">
+  <div class="l-left" data-v-662c1668="">
+    <div class="l-add" data-v-662c1668="">
+    </div>
+    <div class="left-img" data-v-662c1668="">
+      <img src="../images/homedongtu01.GIF" alt="" data-v-662c1668="">
+    </div>
+  </div>
+  <div class="l-right" data-v-662c1668="">
+    <div class="r-top" data-v-662c1668="">
+      HDMapNet: An Online HD Map Construction and Evaluation Framework
+    </div>
+    <div class="r-cont" data-v-662c1668="">
+      HDMapNet is an online HD map learning framework, which dynamically constructs HD maps based on onboard sensor observations. It is a more scalable way to provide semantic and geometry priors to self-driving vehicles than traditional pre-annotated HD maps.
+    </div>
+    <div class="t-btn" data-v-662c1668="">
+      <button data-v-662c1668="">Paper</button>
+      <button data-v-662c1668="">Project</button>
+    </div>
+  </div>
+</div>
 
 
 [COLLISOIN AVOIDANCE TESTING](https://flyover202305.github.io//collisoin-avoidance/)
