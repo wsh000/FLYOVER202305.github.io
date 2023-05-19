@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-ADST ( Autonomous Driving Simulation Test ) focuses on autonomous driving-related testing and simulation technologies.  Alibaba's Autonomous Driving Lab, Nanyang Technological University and Tianjin University are cooperating on autonomous driving technology research.  Aims to develop reliable, interpretable and verifiable autonomous simulation data solutions.  Current research directions are as follows:
+ADST ( Autonomous Driving Simulation Test ) focuses on autonomous driving-related testing and simulation technologies. Alibaba's self-driving lab is cooperating with well-known universities at home and abroad to research autonomous driving technology. The current research directions are as follows:
 
 
 * Autonomous driving data mining and clustering
