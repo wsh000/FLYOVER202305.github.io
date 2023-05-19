@@ -51,7 +51,7 @@ The first high-speed autonomous driving simulation Challenge in China, relying o
 
 LEARN MORE:
 
-[COMPETITION INTRODUCTION VIDEO](https://tianchi.aliyun.com/competition/entrance/531996/information)
+[COMPETITION INTRODUCTION VIDEO](https://www.bilibili.com/video/BV1zs4y1z78o/?vd_source=3fb97c18845c3bdc2c9938cffb353745)
 
 
 [COMPETITION TITLE](https://tianchi.aliyun.com/competition/entrance/531996/information)
