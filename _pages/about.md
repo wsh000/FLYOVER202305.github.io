@@ -109,32 +109,3 @@ ACADEMIC RESEARCH
 <img src = "../images/xxueshu04.png"   width = 800>    
 
 
-<img src = "../images/yanjiu1.gif"   width = 800>    
-
-
-<img src = "../images/homedongtu01.GIF"   width = 405>     
-
-
-<img src = "../images/homedongtu02.GIF"  width = 405>
-
-
-<img src="../images/hometupian03.jpg" />
-
-
-<img src="../images/homedongtu04.gif" width=405 />
-
-
-<iframe 
-src="../videos/jishujieduyasuo.webm" 
-scrolling="no" 
-border="0" 
-frameborder="no" 
-framespacing="0" 
-allowfullscreen="true" 
-height=600 
-width=800> 
-</iframe>
-
-
-
-
