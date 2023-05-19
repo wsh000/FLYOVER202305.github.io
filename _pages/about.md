@@ -71,22 +71,13 @@ At present, there are 1443 HD Maps, based on Hangzhou real data generalization g
 
 LEARN MORE:
 
-[TECHNICAL INTERPRETATION VIDEO](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
-
 [GITHUB SITE ADDRESS](https://ntutangyun.github.io/highway-interchange-dataset-website/)
 
 
-<iframe 
-src="../videos/jishujieduyasuo.webm" 
-scrolling="no" 
-border="0" 
-frameborder="no" 
-framespacing="0" 
-allowfullscreen="true" 
-height=600 
-width=800> 
-</iframe>
+[TECHNICAL INTERPRETATION VIDEO](https://www.bilibili.com/video/BV1EL411S7Kg/?spm_id_from=333.337.search-card.all.click&vd_source=370e92ee1e3cb377b0f7fde76d7af6f6)
 
+
+<img src = "../images/xjishujiedu.gif"   width = 800>    
 
 
 ACADEMIC RESEARCH
@@ -114,5 +105,19 @@ ACADEMIC RESEARCH
 [GENERATE INTERCHANGES](https://flyover202305.github.io//generate-interchanges/)
 
 <img src="../images/homedongtu04.gif" width=405 />
+
+
+<iframe 
+src="../videos/jishujieduyasuo.webm" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
+
 
 
